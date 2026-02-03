@@ -121,7 +121,13 @@ export default function ContactPage() {
                   />
                 </label>
 
-                <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12 }}>
+                <div
+                  style={{
+                    display: "grid",
+                    gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+                    gap: 12,
+                  }}
+                >
                   <label style={{ fontSize: 13, color: "var(--muted)", fontWeight: 700 }}>
                     Email Address *
                     <input

@@ -67,8 +67,55 @@
   box-shadow: 0 8px 20px rgba(37, 99, 235, 0.25);
 }
 
+.menuButton {
+  display: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  background: rgba(255, 255, 255, 0.8);
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.menuBar {
+  width: 18px;
+  height: 2px;
+  background: rgba(15, 23, 42, 0.75);
+  border-radius: 999px;
+  display: block;
+}
+
+.mobileMenu {
+  display: none;
+}
+
+.mobileLink {
+  display: block;
+  padding: 12px 20px;
+  color: var(--muted);
+  font-weight: 600;
+  border-top: 1px solid rgba(15, 23, 42, 0.06);
+}
+
+.mobileLinkActive {
+  color: var(--primary);
+}
+
 @media (max-width: 860px) {
   .nav {
     display: none;
+  }
+
+  .menuButton {
+    display: inline-flex;
+  }
+
+  .mobileMenu {
+    display: block;
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(15, 23, 42, 0.08);
   }
 }

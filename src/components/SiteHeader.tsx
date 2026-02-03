@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 
 import styles from "./SiteHeader.module.css";
 
@@ -18,6 +19,11 @@ const nav = [
 
 export default function SiteHeader() {
   const pathname = usePathname();
+  const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    setOpen(false);
+  }, [pathname]);
 
   return (
     <header className={styles.header}>
@@ -42,10 +48,39 @@ export default function SiteHeader() {
           })}
         </nav>
 
+        <button
+          type="button"
+          className={styles.menuButton}
+          aria-label="Open menu"
+          aria-expanded={open}
+          onClick={() => setOpen((v) => !v)}
+        >
+          <span className={styles.menuBar} />
+          <span className={styles.menuBar} />
+          <span className={styles.menuBar} />
+        </button>
+
         <Link href={BOOK_DEMO_HREF} className={styles.cta}>
           Book a Demo
         </Link>
       </div>
+
+      {open ? (
+        <div className={styles.mobileMenu}>
+          {nav.map((item) => {
+            const active = pathname === item.href;
+            return (
+              <Link
+                key={item.href}
+                href={item.href}
+                className={`${styles.mobileLink} ${active ? styles.mobileLinkActive : ""}`}
+              >
+                {item.label}
+              </Link>
+            );
+          })}
+        </div>
+      ) : null}
     </header>
   );
 }
