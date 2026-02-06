@@ -24,7 +24,7 @@ const featured = [
     title: "How Digital Queue Management is Transforming Healthcare in Pakistan",
     excerpt:
       "Discover how innovative queue management systems are revolutionizing patient experience and hospital operations.",
-    url: "https://omborigroup.medium.com/queue-management-a-vital-component-in-healthcare-ed5ffc08073e",
+    url: "https://colabspk.medium.com/the-rise-of-telehealth-in-pakistan-83cb42d49f7b",
     image: "/images/dashboard.jpeg",
   },
   {
