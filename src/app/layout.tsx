@@ -17,6 +17,10 @@ export const metadata: Metadata = {
   title: "PulseQ",
   description:
     "PulseQ - Pakistan's first live digital queue management system for healthcare.",
+  icons: {
+    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
+    apple: [{ url: "/icon.svg", type: "image/svg+xml" }],
+  },
 };
 
 export default function RootLayout({
