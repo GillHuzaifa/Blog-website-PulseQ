@@ -24,7 +24,7 @@ const featured = [
     title: "How Digital Queue Management is Transforming Healthcare in Pakistan",
     excerpt:
       "Discover how innovative queue management systems are revolutionizing patient experience and hospital operations.",
-    url: "https://medium.com/@pickcel475/beginners-guide-to-queue-management-system-for-hospitals-and-clinics-b8b63d95aa9a",
+    url: "https://omborigroup.medium.com/queue-management-a-vital-component-in-healthcare-ed5ffc08073e",
     image: "/images/dashboard.jpeg",
   },
   {
@@ -32,7 +32,7 @@ const featured = [
     title: "Reducing Patient Wait Times: Best Practices for Hospitals",
     excerpt:
       "Learn effective strategies to minimize wait times and improve operational efficiency in healthcare facilities.",
-    url: "https://medium.com/@liveClinic/how-to-reduce-patient-wait-times-in-a-medical-office-d241b2f06ab0",
+    url: "https://omborigroup.medium.com/manage-customer-flow-with-virtual-queues-37a2f8a9c8a2",
     image: "/images/waiting-room.jpeg",
   },
   {
@@ -40,7 +40,7 @@ const featured = [
     title: "The Future of Patient Experience: Real-Time Updates and Transparency",
     excerpt:
       "Explore how real-time communication is shaping the future of patient satisfaction and trust.",
-    url: "https://medium.com/@panashisolutions/how-hospital-kiosk-machines-are-cutting-wait-times-and-transforming-patient-care-238c2e7cb06b",
+    url: "https://omborigroup.medium.com/visitor-management-tools-to-streamline-healthcare-operations-950a340290a5",
     image: "/images/handshake.jpeg",
   },
   {
@@ -56,7 +56,7 @@ const featured = [
     title: "How a Hospital Reduced Wait Times by 50% with a Patient Management System",
     excerpt:
       "A real-world case study on reducing hospital waiting times using better patient flow and digital tools.",
-    url: "https://medium.com/@Larisa10/how-a-hospital-reduced-wait-times-by-50-with-a-patient-management-system-73f35aea71ec",
+    url: "https://omborigroup.medium.com/queue-management-a-vital-component-in-healthcare-ed5ffc08073e",
     image: "/images/waiting-room.jpeg",
   },
 ];
