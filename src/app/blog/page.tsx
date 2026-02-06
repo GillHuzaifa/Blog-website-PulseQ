@@ -24,7 +24,7 @@ const featured = [
     title: "How Digital Queue Management is Transforming Healthcare in Pakistan",
     excerpt:
       "Discover how innovative queue management systems are revolutionizing patient experience and hospital operations.",
-    url: MEDIUM_PROFILE,
+    url: "https://medium.com/@chinweikpechidinma_3797/qure-a-digital-queue-management-system-for-nigerian-hospitals-8db122f1a55e",
     image: "/images/dashboard.jpeg",
   },
   {
@@ -32,7 +32,7 @@ const featured = [
     title: "Reducing Patient Wait Times: Best Practices for Hospitals",
     excerpt:
       "Learn effective strategies to minimize wait times and improve operational efficiency in healthcare facilities.",
-    url: MEDIUM_PROFILE,
+    url: "https://medium.com/@khanzuraiz87/how-to-reduce-patient-wait-times-practical-strategies-for-faster-better-58601fd003ad",
     image: "/images/waiting-room.jpeg",
   },
   {
@@ -40,7 +40,7 @@ const featured = [
     title: "The Future of Patient Experience: Real-Time Updates and Transparency",
     excerpt:
       "Explore how real-time communication is shaping the future of patient satisfaction and trust.",
-    url: MEDIUM_PROFILE,
+    url: "https://medium.com/@gmansoor/mobile-app-solutions-to-improve-patient-waiting-time-4ddab936a19c",
     image: "/images/handshake.jpeg",
   },
   {
@@ -48,7 +48,7 @@ const featured = [
     title: "Understanding Queue Management Technology: A Practical Guide",
     excerpt:
       "A simple breakdown of the technology behind modern queue management and why it matters.",
-    url: MEDIUM_PROFILE,
+    url: "https://hassellof.medium.com/why-queue-management-systems-are-essential-for-modern-businesses-ombori-blog-b59a58b75973",
     image: "/images/dashboard.jpeg",
   },
   {
