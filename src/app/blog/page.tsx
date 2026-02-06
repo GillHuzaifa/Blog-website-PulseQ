@@ -24,24 +24,40 @@ const featured = [
     title: "How Digital Queue Management is Transforming Healthcare in Pakistan",
     excerpt:
       "Discover how innovative queue management systems are revolutionizing patient experience and hospital operations.",
+    url: MEDIUM_PROFILE,
+    image: "/images/dashboard.jpeg",
   },
   {
     tag: "Queue Management",
     title: "Reducing Patient Wait Times: Best Practices for Hospitals",
     excerpt:
       "Learn effective strategies to minimize wait times and improve operational efficiency in healthcare facilities.",
+    url: MEDIUM_PROFILE,
+    image: "/images/waiting-room.jpeg",
   },
   {
     tag: "Patient Experience",
     title: "The Future of Patient Experience: Real-Time Updates and Transparency",
     excerpt:
       "Explore how real-time communication is shaping the future of patient satisfaction and trust.",
+    url: MEDIUM_PROFILE,
+    image: "/images/handshake.jpeg",
   },
   {
     tag: "Technology",
     title: "Understanding Queue Management Technology: A Practical Guide",
     excerpt:
       "A simple breakdown of the technology behind modern queue management and why it matters.",
+    url: MEDIUM_PROFILE,
+    image: "/images/dashboard.jpeg",
+  },
+  {
+    tag: "Case Studies",
+    title: "How a Hospital Reduced Wait Times by 50% with a Patient Management System",
+    excerpt:
+      "A real-world case study on reducing hospital waiting times using better patient flow and digital tools.",
+    url: "https://medium.com/@Larisa10/how-a-hospital-reduced-wait-times-by-50-with-a-patient-management-system-73f35aea71ec",
+    image: "/images/waiting-room.jpeg",
   },
 ];
 
@@ -117,11 +133,18 @@ export default function BlogPage() {
               <a
                 key={a.title}
                 className={`card ${m.articleCard}`}
-                href={MEDIUM_PROFILE}
+                href={a.url || MEDIUM_PROFILE}
                 target="_blank"
                 rel="noreferrer"
               >
-                <div className={m.articleMedia} />
+                <div
+                  className={m.articleMedia}
+                  style={
+                    a.image
+                      ? { backgroundImage: `url(${a.image})`, backgroundSize: "cover", backgroundPosition: "center" }
+                      : undefined
+                  }
+                />
                 <div className={m.articleBody}>
                   <div className={m.articleTag}>🏷 {a.tag}</div>
                   <div className={m.articleTitle}>{a.title}</div>
@@ -145,11 +168,18 @@ export default function BlogPage() {
               <a
                 key={a.title}
                 className={`card ${m.articleCard}`}
-                href={MEDIUM_PROFILE}
+                href={a.url || MEDIUM_PROFILE}
                 target="_blank"
                 rel="noreferrer"
               >
-                <div className={m.articleMedia} />
+                <div
+                  className={m.articleMedia}
+                  style={
+                    a.image
+                      ? { backgroundImage: `url(${a.image})`, backgroundSize: "cover", backgroundPosition: "center" }
+                      : undefined
+                  }
+                />
                 <div className={m.articleBody}>
                   <div className={m.articleTag}>🏷 {a.tag}</div>
                   <div className={m.articleTitle}>{a.title}</div>

@@ -31,7 +31,7 @@ export default function HomePage() {
             <div className={m.heroMedia}>
               <div className={m.heroMediaInner}>
                 <Image
-                  src="/images/waiting-room.jpeg"
+                  src="/images/BlooDglucoose.jpeg"
                   alt="PulseQ"
                   fill
                   priority
@@ -139,7 +139,7 @@ export default function HomePage() {
             <div className={m.mediaCard}>
               <div className={m.mediaCardInner}>
                 <Image
-                  src="/images/waiting-room.jpeg"
+                  src="/images/BlooDglucoose.jpeg"
                   alt="Hospital"
                   fill
                   style={{ objectFit: "cover" }}

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 import styles from "./SiteHeader.module.css";
 
@@ -21,14 +21,10 @@ export default function SiteHeader() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
 
-  useEffect(() => {
-    setOpen(false);
-  }, [pathname]);
-
   return (
     <header className={styles.header}>
       <div className={styles.inner}>
-        <Link href="/" className={styles.brand}>
+        <Link href="/" className={styles.brand} onClick={() => setOpen(false)}>
           <span className={styles.logo}>P</span>
           <span>PulseQ</span>
         </Link>
@@ -74,6 +70,7 @@ export default function SiteHeader() {
                 key={item.href}
                 href={item.href}
                 className={`${styles.mobileLink} ${active ? styles.mobileLinkActive : ""}`}
+                onClick={() => setOpen(false)}
               >
                 {item.label}
               </Link>
