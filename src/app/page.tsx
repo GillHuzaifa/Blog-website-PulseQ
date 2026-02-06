@@ -139,7 +139,7 @@ export default function HomePage() {
             <div className={m.mediaCard}>
               <div className={m.mediaCardInner}>
                 <Image
-                  src="/images/BlooDglucoose.jpeg"
+                  src="/images/waiting-room.jpeg"
                   alt="Hospital"
                   fill
                   style={{ objectFit: "cover" }}
