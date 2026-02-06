@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 import styles from "./SiteFooter.module.css";
@@ -79,7 +80,9 @@ export default function SiteFooter({
         <div className={styles.footerInner}>
           <div>
             <div className={styles.brand}>
-              <span className={styles.logo}>P</span>
+              <span className={styles.logo} aria-hidden>
+                <Image src="/images/pulseq-logo.jpeg" alt="" width={34} height={34} />
+              </span>
               <span>PulseQ</span>
             </div>
             <p className={styles.small}>

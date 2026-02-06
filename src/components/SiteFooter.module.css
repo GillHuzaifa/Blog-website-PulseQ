@@ -73,12 +73,11 @@
   width: 34px;
   height: 34px;
   border-radius: 10px;
-  background: var(--primary);
+  background: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
-  font-weight: 900;
+  overflow: hidden;
 }
 
 .small {
