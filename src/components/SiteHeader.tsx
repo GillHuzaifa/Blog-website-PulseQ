@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -25,7 +26,9 @@ export default function SiteHeader() {
     <header className={styles.header}>
       <div className={styles.inner}>
         <Link href="/" className={styles.brand} onClick={() => setOpen(false)}>
-          <span className={styles.logo}>P</span>
+          <span className={styles.logo} aria-hidden>
+            <Image src="/images/pulseq-logo.jpeg" alt="" width={32} height={32} />
+          </span>
           <span>PulseQ</span>
         </Link>
 

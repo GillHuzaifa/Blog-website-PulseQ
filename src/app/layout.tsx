@@ -18,8 +18,8 @@ export const metadata: Metadata = {
   description:
     "PulseQ - Pakistan's first live digital queue management system for healthcare.",
   icons: {
-    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
-    apple: [{ url: "/icon.svg", type: "image/svg+xml" }],
+    icon: [{ url: "/images/pulseq-logo.jpeg", type: "image/jpeg" }],
+    apple: [{ url: "/images/pulseq-logo.jpeg", type: "image/jpeg" }],
   },
 };
 
