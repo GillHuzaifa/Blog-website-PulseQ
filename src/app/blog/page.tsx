@@ -24,7 +24,7 @@ const featured = [
     title: "How Digital Queue Management is Transforming Healthcare in Pakistan",
     excerpt:
       "Discover how innovative queue management systems are revolutionizing patient experience and hospital operations.",
-    url: "https://medium.com/@chinweikpechidinma_3797/qure-a-digital-queue-management-system-for-nigerian-hospitals-8db122f1a55e",
+    url: "https://medium.com/@pickcel475/beginners-guide-to-queue-management-system-for-hospitals-and-clinics-b8b63d95aa9a",
     image: "/images/dashboard.jpeg",
   },
   {
@@ -32,7 +32,7 @@ const featured = [
     title: "Reducing Patient Wait Times: Best Practices for Hospitals",
     excerpt:
       "Learn effective strategies to minimize wait times and improve operational efficiency in healthcare facilities.",
-    url: "https://medium.com/@khanzuraiz87/how-to-reduce-patient-wait-times-practical-strategies-for-faster-better-58601fd003ad",
+    url: "https://medium.com/@liveClinic/how-to-reduce-patient-wait-times-in-a-medical-office-d241b2f06ab0",
     image: "/images/waiting-room.jpeg",
   },
   {
@@ -40,7 +40,7 @@ const featured = [
     title: "The Future of Patient Experience: Real-Time Updates and Transparency",
     excerpt:
       "Explore how real-time communication is shaping the future of patient satisfaction and trust.",
-    url: "https://medium.com/@gmansoor/mobile-app-solutions-to-improve-patient-waiting-time-4ddab936a19c",
+    url: "https://medium.com/@panashisolutions/how-hospital-kiosk-machines-are-cutting-wait-times-and-transforming-patient-care-238c2e7cb06b",
     image: "/images/handshake.jpeg",
   },
   {
@@ -48,7 +48,7 @@ const featured = [
     title: "Understanding Queue Management Technology: A Practical Guide",
     excerpt:
       "A simple breakdown of the technology behind modern queue management and why it matters.",
-    url: "https://hassellof.medium.com/why-queue-management-systems-are-essential-for-modern-businesses-ombori-blog-b59a58b75973",
+    url: "https://omborigroup.medium.com/why-queue-management-systems-are-essential-for-modern-businesses-ombori-blog-9ec949f9668f",
     image: "/images/dashboard.jpeg",
   },
   {
